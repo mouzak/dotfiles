@@ -149,7 +149,6 @@ let g:ctrlp_custom_ignore = {
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MAPPINGS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-inoremap <D-CR> <Esc>
 inoremap <S-CR> <Esc>
 
 " Buffer navigation
@@ -181,5 +180,6 @@ set undodir=~/.vim/tmp/undo//
 " FIRST TIME INSTALLATION
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " mkdir ~/.vim/sessions
-" mkdir -p ~/.vim/tmp/{backup,test,undo}
+" mkdir -p ~/.vim/tmp/{backup,swap,undo}
 " git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+" :PluginInstall
